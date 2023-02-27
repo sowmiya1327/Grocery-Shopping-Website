@@ -1,0 +1,29 @@
+
+/* ---------------------------- media for (max-width: 991px) ----------------------  */
+
+@media (max-width: 991px){
+
+    .blog .box-container{
+        grid-template-columns: 2.5fr .8fr;
+        gap:1.5rem;
+    }
+
+}
+
+/* ---------------------------- media for (max-width: 768px) ----------------------  */
+
+@media (max-width: 768px){
+
+    .box-container{
+        grid-template-columns: 1fr;
+        gap:0;
+    }
+
+    .blog .box-container{
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+/* ---------------------------- media for (max-width: 450px) ----------------------  */

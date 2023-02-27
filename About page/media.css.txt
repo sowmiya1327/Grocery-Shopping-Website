@@ -1,0 +1,49 @@
+
+/* ---------------------------- media for (max-width: 991px) ----------------------  */
+
+@media (max-width: 991px){
+
+    section{
+        padding: 2rem;
+    }
+
+    .box-container{
+        grid-template-columns: .7fr 2fr;
+    }
+
+    .box-container .left-col .box a{
+        justify-content: space-between;
+    }
+
+    .box-container .right-col{
+        margin-top: 2rem;
+    }
+
+}
+
+/* ---------------------------- media for (max-width: 768px) ----------------------  */
+
+@media (max-width: 768px){
+
+    .box-container{
+        grid-template-columns: 1fr;
+        gap:0;
+    }
+
+    .about .box-container .right-col .box,
+    .about .box-container .right-col .heading-2{
+        text-align: center;
+    }
+
+}
+
+
+/* ---------------------------- media for (max-width: 450px) ----------------------  */
+
+@media (max-width: 450px){
+
+    .about .box-container .left-col img{
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food & Grocery Responsive Website design</title>
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+
+
+    <!-- font awesome cdn file link  -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+</head>
+<body>
+    
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <div class="header-1">
+            <a href="#home" class="logo"><img src="images/logo-1.webp" alt=""></a>
+
+            <form action="" class="search-box-container">
+                <input type="search" id="search-box" placeholder="search here">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+
+        </div>
+
+        <div class="header-2">
+
+            <div id="menu-bar" class="fas fa-bars"></div>
+
+            <nav class="navbar">
+                    <a href="#home">home</a>
+                    <a href="about.html">about us</a>
+                    <a href="#">Fruits & vegetables</a>
+                    <a href="shop.html">shop</a>
+                    <a href="blog.html">blog</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">contact</a>
+            </nav>
+
+            <div class="icons">
+                <a href="#"><i class="fas fa-map-marker-alt"></i>Your Location</a>
+                <a href="#"><i class="fad fa-lock-alt"></i>sign in</a>
+                <a href="#"><i class="fas fa-user-circle"></i>sign up</a>
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- header section ends  -->
+
+    <!-- home section strats  -->
+
+    <section class="home" id="home">
+
+        <div class="box-container">
+
+            <div class="left-col">
+                <h2 class="title">All categories</h2>
+                <div class="box">
+                    <a href="#"><img src="images/side-1.webp" alt=""> <p>beverages</p>  <span>1</span></a>
+                    <a href="#"><img src="images/side-2.webp" alt=""> <p>beverages</p> <span>1</span></a>
+                    <a href="#"><img src="images/side-3.webp" alt=""> <p>beverages</p> <span>7</span></a>
+                    <a href="#"><img src="images/side-4.webp" alt=""> <p>beverages</p> <span>1</span></a>
+                    <a href="#"><img src="images/side-5.webp" alt=""> <p>beverages</p> <span>6</span></a>
+                    <a href="#"><img src="images/side-6.webp" alt=""> <p>beverages</p>  <span>2</span></a>
+                    <a href="#"><img src="images/side-7.webp" alt=""> <p>beverages</p>  <span>1</span></a>
+                    <a href="#"><img src="images/side-8.webp" alt=""> <p>beverages</p>  <span>1</span></a>
+                    <a href="#"><img src="images/side-9.webp" alt=""> <p>beverages</p>  <span>1</span></a>
+                </div>
+            </div>
+
+            <div class="right-col">
+                <img src="images/home-1.webp" alt="">
+            </div>
+            
+        </div>
+
+    </section>
+
+    <!-- home section ends  -->
+
+    <!-- product section starts  -->
+
+    <section class="product">
+
+        <div class="heading">
+            <h2>Top Savers Today <span>20% off</span></h2>
+            <a href="#"> view all</a>
+        </div>
+
+        <div class="box-container">
+
+            <div class="box">
+                <span class="discount">-33%</span>
+                <div class="corner-box"><span></span></div>
+                <img src="images/p-1.webp" alt="">
+                <h3>organic sweet corn</h3>
+                <p>in stock - <span>1</span>kg</p>
+                <div class="price"><span>$18.00</span>$14.99</div>
+                
+                <button type="button" class="btn">add to cart</button>
+            </div>
+
+            <div class="box">
+                <span class="discount">-33%</span>
+                <div class="corner-box"><span></span></div>
+                <img src="images/p-2.webp" alt="">
+                <h3>gold creamer potatoes</h3>
+                <p>in stock - <span>1</span>kg</p>
+                <div class="price"><span>$18.00</span>$14.99</div>
+
+                <button type="button" class="btn">add to cart</button>
+            </div>
+
+            <div class="box">
+                <span class="discount">-33%</span>
+                <div class="corner-box"><span></span></div>
+                <img src="images/p3.webp" alt="">
+                <h3>native organic papaya</h3>
+                <p>in stock - <span>1</span>kg</p>
+                <div class="price"><span>$18.00</span>$14.99</div>
+
+                <button type="button" class="btn">add to cart</button>
+            </div>
+
+            <div class="box">
+                <span class="discount">-33%</span>
+                <div class="corner-box"><span></span></div>
+                <img src="images/p-4.webp" alt="">
+                <h3>fresh red seedless</h3>
+                <p>in stock - <span>1</span>kg</p>
+                <div class="price"><span>$18.00</span>$14.99</div>
+
+                <button type="button" class="btn">add to cart</button>
+            </div>
+
+            <div class="box">
+                <span class="discount">-33%</span>
+                <div class="corner-box"><span></span></div>
+                <img src="images/p-5.webp" alt="">
+                <h3>green seedless grapes</h3>
+                <p>in stock - <span>1</span>kg</p>
+                <div class="price"><span>$18.00</span>$14.99</div>
+
+                <button type="button" class="btn">add to cart</button>
+            </div>
+
+            <div class="box">
+                <span class="discount">-33%</span>
+                <div class="corner-box"><span></span></div>
+                <img src="images/p-6.webp" alt="">
+                <h3>organic grape tommatoes</h3>
+                <p>in stock - <span>1</span>kg</p>
+                <div class="price"><span>$18.00</span>$14.99</div>
+
+                <button type="button" class="btn">add to cart</button>
+            </div>
+
+            <div class="box">
+                <span class="discount">-33%</span>
+                <div class="corner-box"><span></span></div>
+                <img src="images/p-7.webp" alt="">
+                <h3>organic broccoli</h3>
+                <p>in stock - <span>1</span>kg</p>
+                <div class="price"><span>$18.00</span>$14.99</div>
+
+                <button type="button" class="btn">add to cart</button>
+            </div>
+
+            <div class="box">
+                <span class="discount">-33%</span>
+                <div class="corner-box"><span></span></div>
+                <img src="images/p-8.webp" alt="">
+                <h3>washed sugar snap peas</h3>
+                <p>in stock - <span>1</span>kg</p>
+                <div class="price"><span>$18.00</span>$14.99</div>
+
+                <button type="button" class="btn">add to cart</button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- product section ends  -->
+
+    <section class="container">
+
+        <div class="box-container"></div>
+
+    </section>
+
+
+    <!-- last product section starts   -->
+
+    <section class="last-product product">
+
+        <div class="heading">
+            <h2>Best Offers View <span>20% off</span></h2>
+            <a href="#"> view all</a>
+        </div>
+
+        <div class="box-container">
+
+            <div class="box">
+                <span class="discount">-33%</span>
+                <div class="corner-box"><span></span></div>
+                <img src="images/p-1.webp" alt="">
+                <h3>organic sweet corn</h3>
+                <p>in stock - <span>1</span>kg</p>
+                <div class="price"><span>$18.00</span>$14.99</div>
+                
+                <button type="button" class="btn">add to cart</button>
+            </div>
+
+            <div class="box">
+                <span class="discount">-33%</span>
+                <div class="corner-box"><span></span></div>
+                <img src="images/p-2.webp" alt="">
+                <h3>gold creamer potatoes</h3>
+                <p>in stock - <span>1</span>kg</p>
+                <div class="price"><span>$18.00</span>$14.99</div>
+
+                <button type="button" class="btn">add to cart</button>
+            </div>
+
+            <div class="box">
+                <span class="discount">-33%</span>
+                <div class="corner-box"><span></span></div>
+                <img src="images/p3.webp" alt="">
+                <h3>native organic papaya</h3>
+                <p>in stock - <span>1</span>kg</p>
+                <div class="price"><span>$18.00</span>$14.99</div>
+
+                <button type="button" class="btn">add to cart</button>
+            </div>
+
+            <div class="box">
+                <span class="discount">-33%</span>
+                <div class="corner-box"><span></span></div>
+                <img src="images/p-4.webp" alt="">
+                <h3>fresh red seedless</h3>
+                <p>in stock - <span>1</span>kg</p>
+                <div class="price"><span>$18.00</span>$14.99</div>
+
+                <button type="button" class="btn">add to cart</button>
+            </div>
+
+            <div class="box">
+                <span class="discount">-33%</span>
+                <div class="corner-box"><span></span></div>
+                <img src="images/p-5.webp" alt="">
+                <h3>green seedless grapes</h3>
+                <p>in stock - <span>1</span>kg</p>
+                <div class="price"><span>$18.00</span>$14.99</div>
+
+                <button type="button" class="btn">add to cart</button>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- last product section ends   -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+       <div class="wrapper">
+
+        <div class="feature-box">
+            <i class="fad fa-truck"></i>
+            <div class="content">
+                <h3>Free & Next Day Delivery</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+
+        <div class="feature-box">
+            <i class="fas fa-shopping-basket"></i>
+            <div class="content">
+                <h3>100% Satisfaction Guarantee</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+
+        <div class="feature-box">
+            <i class="fas fa-tag"></i>
+            <div class="content">
+                <h3>Great Daily Deals Discount</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+       </div>
+
+       <div class="box-container">
+
+        <div class="box">
+            <img src="images/logo-footer-1.webp" alt="">
+            <div class="icons icon-1">
+                <a href="#"><i class="fas fa-phone-alt"></i> +61 525 240 310</a>
+                <a href="#"><i class="fas fa-mobile-android-alt"></i> 12345 67890, 56847-98562</a>
+                <a href="#"><i class="fad fa-envelope"></i> yourmail@gmail.com</a>
+                <a href="#"><i class="fal fa-globe"></i> www.klbtheme.com</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h2>CATEGORIES</h2>
+            <div class="icons">
+                <a href="#">Vegetables</a>
+                <a href="#">Grocery & Staples</a>
+                <a href="#">Breakfast & Dairy</a>
+                <a href="#">Soft Drinks</a>
+                <a href="#">Biscuits & Cookies</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h2>ABOUT US</h2>
+            <div class="icons">
+                <a href="#">Company Information</a>
+                <a href="#">Careers</a>
+                <a href="#">Store Location</a>
+                <a href="#">Affillate Program</a>
+                <a href="#">Copyright</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h2>Download App</h2>
+            <div class="image">
+                <img src="images/apple.webp" alt="">
+                <img src="images/google-play.webp" alt="">
+            </div>
+        </div>
+
+       </div>
+
+    </section>
+
+    <div class="credit"> Copyright 2021 <span> honey web </span> all reserved</div>
+
+    <!-- footer section ends  -->
+
+
+
+
+
+
+
+
+
+    <!-- custom JS file link  -->
+    <script src="script.js"></script>
+
+</body>
+</html>
